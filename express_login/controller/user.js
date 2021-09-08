@@ -1,4 +1,4 @@
-const user = require("../models");
+const user = require("../models/user");
 const jwt = require("jsonwebtoken");
 const { User } = require("../models");
 const { connect } = require("../routes");
@@ -11,7 +11,7 @@ const sign_up = async(req, res) => {
     // const password = req.body.password;
     
     try{
-        await user.create({
+        await User.create({
             email,
             name,
             password,
