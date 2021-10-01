@@ -1,2 +1,2 @@
-study-node.js의 express.login check 기능 분리한 파일
+Study-node.js의 express_login 에 check 기능 파일 분리
 
