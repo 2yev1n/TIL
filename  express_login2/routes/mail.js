@@ -9,7 +9,7 @@ router.post("/mail", (req, res) => {
 
     const { email } = req.body;
     
-    authNum  =Math.random().toString().substr(2,6);
+    authNum = Math.random().toString().substr(2,6);
 
     const emailParam = {
         toEmail: email,
