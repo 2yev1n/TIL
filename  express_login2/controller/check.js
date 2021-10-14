@@ -1,14 +1,14 @@
 const router = require("../routes/check");
-var authNum = require("../routes/mail");
-
+let { authNum } = require("../routes/mail");
+const mail = require("../routes/mail");
 
 const check = async(req, res) => {
     const { number } = req.body;
 
-    console.log(authNum.authNum);
+    console.log(mail.authNum);
     console.log(number);
     try{
-        if(authNum.authNum === number) {
+        if(mail.authNum === number) {
             res.status(200).json({
                 message: "인증번호 일치"
             });
