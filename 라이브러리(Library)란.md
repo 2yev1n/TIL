@@ -22,5 +22,5 @@
 
 ## 참고 자료
 
-https://atmkofw.tistory.com/26
-https://curryyou.tistory.com/363
+* https://atmkofw.tistory.com/26
+* https://curryyou.tistory.com/363
